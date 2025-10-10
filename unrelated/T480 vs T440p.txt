@@ -1,0 +1,51 @@
+T480 vs T440p
+
+T480 ports 
+- 2 usb 3.1 Gen 1 (one always on) 
+- 1 usb 3.1 type-c (power/DP)
+- 1 usb 3.1 type-c gen 2/Thunderbolt 3 (power/DP)
+- HDMI 1.4b
+- Ethernet (RJ-45)
+- nano-SIM card slot (WWAN models)
+- 4-in-1 media reader (MMC, SD, SDHC, SDXC)
+- side docking connecter
+- security keyhole
+-
+
+T440p ports
+- 2 usb 3.0 (one always on)
+- VGA
+- Mini DP
+- Ethernet (RJ-45)
+- 4-in-1 media reader
+- dock connector (integ only)
+-
+
+
+upgrades
+T480
+- 4K UHD screen
+- second ssd in WWAN slot
+- Heatsink upgrade
+- 32/64 GB ram, cpu dependent
+- WIfi 6E AX210 
+- glass trackpad form X1 Carbon gen 6 or X1 Extreme
+- backlit keyboard
+- 6 cell ext batt
+-
+
+T440p
+- 1080p IPS
+- T450p trackpad
+- 16GB ram
+- CPU
+- second or third ssd/M.2
+- 6 cell ext batt
+- backlit keyboard
+- 
+
+
+
+
+
+AMD Ryzen 7 5800H
