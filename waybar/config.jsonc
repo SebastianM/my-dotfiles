@@ -161,7 +161,8 @@
             "phone": " ",
             "portable": " ",
             "car": " ",
-            "default": [" ", " ", " "]
+            "default": [" ", " ", " "],
+		"tooltip": flase
         }
     },
     "tray": {
