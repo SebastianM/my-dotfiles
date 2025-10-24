@@ -1,0 +1,125 @@
+@define-color bg    #1a1b26; 
+@define-color fg    #a9b1d6; 
+@define-color blk   #32344a; 
+@define-color red   #f7768e; 
+@define-color grn   #9ece6a; 
+@define-color ylw   #e0af68; 
+@define-color blu   #7aa2f7; 
+@define-color mag   #ad8ee6; 
+@define-color cyn   #0db9d7; 
+@define-color brblk #444b6a; 
+@define-color white #ffffff; 
+
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: @bg;
+    color: @fg;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    color: @cyn;
+    background-color: transparent;
+    border-bottom: 3px solid @bg;
+}
+
+#workspaces button.active {
+    color: @cyn;
+    border-bottom: 3px solid @mag;
+}
+
+#workspaces button.empty {
+    color: @white;
+}
+#workspaces button.empty.active {
+    color: @cyn;
+    border-bottom: 3px solid @mag;
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+}
+
+button:hover {
+    background: inherit;
+}
+
+#clock,
+#cpu,
+#memory,
+#disk,
+#network,
+#custom-media,
+#mode,
+#mpd,
+#bluetooth,
+#custom-hyprPicker {
+    padding: 0 8px;
+    color: @white;
+    /*background-color: #2980b9;*/
+}
+#tray {
+    color: @white;
+}
+#cpu {
+    color: @grn;
+    border-bottom: 3px solid @grn;
+}
+
+#memory {
+    color: @mag;
+    border-bottom: 3px solid @mag;
+}
+
+#custom-power {
+    color: @grn;
+    border-bottom: 3px solid @grn;
+}
+
+#disk {
+    color: @ylw;
+    border-bottom: 3px solid @ylw;
+}
+
+#custom-launcher {
+    background-color: #1b242b;
+    color: #6a92d7;
+}
+
+#wireplumber {
+    color: @blu;
+    border-bottom: 3px solid @blu;
+}
+
+#clock {
+    color: @cyn;
+    border-bottom: 3px solid @cyn;
+}
+
+#bluetooth {
+    color: #707d9d;
+}
+
+#bluetooth.disconnected {
+    color: #f53c3c;
+}
+
+#network {
+    color: @blu;
+    border-bottom: 3px solid @blu;
+}
+
+#network.disconnected {
+     color: @red;
+}
+
+#mpd, #custom-next, #custom-pause, #custom-previous {
+    padding: 0 6px;
+	border-bottom: 3px solid @red;
+    color: @red
+}
