@@ -162,7 +162,7 @@
             "portable": " ",
             "car": " ",
             "default": [" ", " ", " "],
-		"tooltip": flase
+		"tooltip": false
         }
     },
     "tray": {
